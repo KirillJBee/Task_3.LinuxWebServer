@@ -9,7 +9,7 @@ server {
     listen 443 ssl;
     listen [::]:443 ssl;
     server_name linuxwebserver.com www.linuxwebserver.com;
-    root /var/www/linuxwebserver;
+    root /var/www/linuxwebserver.com;
     index index.html index.htm;
 
 
